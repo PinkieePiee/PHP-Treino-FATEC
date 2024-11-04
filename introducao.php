@@ -21,8 +21,9 @@ class Pessoa {
 // fim classe Pessoa
 
 $p1 = new Pessoa();
-// Instâncias da classe.
+// Instâncias da classe. Objeto real, que se baseia na estrutura da classe.
 $p2 = new Pessoa();
+//Basicamente torna a classe algo real.
 
 echo $p1 -> BoasVindas() . "\n"; 
 $p1 -> nome = "Isabela";
